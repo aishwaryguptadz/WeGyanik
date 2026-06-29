@@ -78,4 +78,4 @@ This project is developed under:
 
 #### Raman Research and Innovation Pvt. Ltd.
 
-Wegyanik is an initiative focised on technology education, innovation, and research-driven learning.
+Wegyanik is an initiative focused on technology education, innovation, and research-driven learning.
