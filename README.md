@@ -76,6 +76,6 @@ Make sure the backend server is running and accessible.
 
 This project is developed under:
 
-#### Raman Research and Innovation
+#### Raman Research and Innovation Pvt. Ltd.
 
 Wegyanik is an initiative focised on technology education, innovation, and research-driven learning.
