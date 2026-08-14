@@ -1,19 +1,85 @@
-# Wegyanik Android App
+# WeGyanik Android App
 
-Wegyanik is an Android application designed to connect users with the Wegyanik platform and provide seamless access to educational technology initiatives, workshops, and digital resources.
+WeGyanik is a native Android application built in Kotlin that acts as a mobile client for the Wegyanik platform.
 
-The application serves as the mobile client for the Wegyanik ecosystem and communicates with the backend services to retrieve dynamic content and platform data.
-
----
+The application provides a structured Android interface for accessing platform content and dynamically loading product and project information from the Wegyanik backend through REST APIs.
 
 ## Features
 
-- User-friendly Android interface built using modern Android development practices
-- Secure API integration with backend services
-- Dynamic content retrieval from server
-- Educational content and workshop information
-- Smooth navigation and responsive UI
-- Scalable architecture for future expansion
+- Native Android application built with Kotlin
+- XML-based Android UI
+- Login and signup screens
+- Home screen
+- Project listing
+- Product/shop listing
+- Dynamic product data fetched from the backend
+- Dynamic project data fetched from the backend
+- Product images loaded from remote URLs
+- RecyclerView-based list rendering
+- REST API integration using Retrofit
+- JSON response parsing using Gson
+- Kotlin Coroutines for asynchronous API operations
+- Glide for image loading and disk caching
+- Fragment-based navigation and modular screens
+
+## Tech Stack
+
+### Android
+
+- Kotlin
+- Android SDK
+- XML Layouts
+- AndroidX
+- AppCompat
+- Material Components
+- ConstraintLayout
+- Fragments
+- RecyclerView
+
+### Networking
+
+- Retrofit 2.9.0
+- Gson Converter
+- Kotlin Coroutines
+
+### Image Loading
+
+- Glide 4.15.1
+- Glide Disk Cache
+
+### Development Tools
+
+- Android Studio
+- Gradle
+- Git
+- GitHub
+
+## Architecture Overview
+
+The application follows a component-based Android structure using Activities and Fragments.
+
+A simplified product-data flow is:
+
+```text
+User opens Shop
+        ↓
+ShopFragment
+        ↓
+Coroutine / lifecycleScope
+        ↓
+RetrofitInstance
+        ↓
+ProductApiService
+        ↓
+Wegyanik REST API
+        ↓
+ProductApiResponse
+        ↓
+List<Product>
+        ↓
+ProductAdapter
+        ↓
+RecyclerView- Scalable architecture for future expansion
 
 ---
 
