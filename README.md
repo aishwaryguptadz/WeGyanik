@@ -18,17 +18,14 @@
 
 ---
 
-## Screenshots / Demo
-
-> Screenshots can be added to this section as the project UI evolves.
-
-|       Home       |     Projects     |       Shop       |      Profile     |
-| :--------------: | :--------------: | :--------------: | :--------------: |
-| *Add screenshot* | *Add screenshot* | *Add screenshot* | *Add screenshot* |
+## Demo
 
 **Platform:** Android
+
 **Backend:** WeGyanik REST API
+
 **Minimum Android Version:** Android 7.0 / API 24
+
 **Target Android Version:** API 35
 
 ---
@@ -780,10 +777,6 @@ The current implementation provides a functional foundation that can be evolved 
 ## License
 
 No explicit open-source license is currently specified in the repository.
-
-Therefore, unless a license is added to the repository, the source code should **not be assumed to be freely reusable, modified, or redistributed**.
-
-If this project is intended to be open source, an appropriate license such as **MIT**, **Apache-2.0**, or another license should be added through a `LICENSE` file.
 
 ---
 
