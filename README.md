@@ -361,45 +361,6 @@ The navigation drawer provides access to:
 
 ---
 
-## Screenshots
-
-The repository currently does not contain a dedicated screenshots/assets gallery for the README.
-
-Recommended screenshots to add:
-
-```text
-docs/
-└── screenshots/
-    ├── splash.png
-    ├── home.png
-    ├── projects.png
-    ├── shop.png
-    ├── profile.png
-    └── navigation-drawer.png
-```
-
-Once added, they can be displayed using:
-
-```markdown
-### Home
-
-![Home Screen](docs/screenshots/home.png)
-
-### Projects
-
-![Projects Screen](docs/screenshots/projects.png)
-
-### Shop
-
-![Shop Screen](docs/screenshots/shop.png)
-
-### Profile
-
-![Profile Screen](docs/screenshots/profile.png)
-```
-
----
-
 ## API / Database
 
 ### API Base URL
